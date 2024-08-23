@@ -17,7 +17,7 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-               Mubshair Hyder {" "}
+              Mubshair Hyder{" "}
             </span>
             <br></br>
             <TypeAnimation
@@ -39,7 +39,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Experienced 3D Artist, VFX expert, and video editor.
+            Experienced 3D Artist, VFX expert, and video editor.
           </p>
           <div>
             {/* <Link
@@ -72,11 +72,14 @@ const HeroSection = () => {
               width={300}
               height={300}
             /> */}
-            <img src="https://res.cloudinary.com/debs4xanw/image/upload/v1724099878/mubi_col_iwjs2g.png" 
-             width={300}
-             height={300}
-             className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full"
-            alt="" srcset="" />
+            <img
+              src="https://res.cloudinary.com/debs4xanw/image/upload/v1724099878/mubi_col_iwjs2g.png"
+              width={300}
+              height={300}
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full"
+              alt=""
+              srcSet=""
+            />
           </div>
         </motion.div>
       </div>
